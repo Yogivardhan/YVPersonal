@@ -1,0 +1,56 @@
+<html>
+
+<head>
+	<title>Authentication</title>
+	<style>
+    	/* CSS for font and color */
+	h1 {
+		font-family: Arial, sans-serif;
+		color: navy;
+	}
+
+	p{
+		font-family: Georgia, serif;
+		color: Black;
+	}
+
+	body{
+		background-image: url("https://lh3.googleusercontent.com/tW_zqRMpGKQVZtygm-ocM3nYbLRXxPaWbllHIFqIDo36IJy3PldRdCF7ZrBU-kOWMOJiMdtjrLxA4ZRWHYRlLjy68kl7BM_fqqPOBmdotoP46zWeO7AKv82S4coWKHPxNCnmx2J0OlvlMAQoHPGvARe7yaoHWwc4JHFNWJM_RqkoeK4WOSaoyfiS-mcNbTUe4w63MwuD6ycUoIUj8AvMStH9m45kgvkogPhiN2_7US4_iXn-p1YU6W1gvoIOER24028sHNmINeBmLYMGc8S9yxTpTj0wBt-X98wiEWL4Jt6bGxdAu-Az5yFSelhbOTmB8Qhiz2pC8v5EFGwvDNYpnCBelWluB4MjWsi939jwi3Gb4mecf4UeAexphfxXJ8zF3VjSAXtWZzirFmUBy5qlEAQai21N4PL_Dl6zagWTx8uDXyxKs5aLWPg4zm7sULV5Gb9SWtntdFs016DiQkw8yiYmjbKF4LXUGOTjGIBMwztx9KHOYEmM4Kk_sVbb4D-IfW0CD_QF10Vgv3rdAtRJ5j_qGc9idaxGC057lvY6HG4XMzIRK4PFoHbz49AnFOXFlCaabPT27WvfD7INZP_ECUSqrbxlyKaPDBvtTFgCFNf2t08h_WaTjJlVJKtET4OtfiVXSJrwskVa34CfhDrlWE6Jacx7fBxCHJbvsFFP8hzli5d712dBRzXVm5CAEURP8lXsEE7h_f70ozPaCaM8EO953Ji0h7z6tpwcdRp-TzyW7gYZXuyboQAP6aU5ebONVWoKAVudVPl4vg1um62_O2AU0Ht1I2kEn0y7FJWVwGNYgqE6Ec8JJ1ksdKcOgRCbjXAy5tIAAsXWYk6Y8-yK9AAjaNDCQMrXVCjszyp-7GWhuGcI-d2gnMyorufmYCJ5TPsK3qmK9NZf1DI4zhkieex_ieMlsM-Kl2-1gIvBR_Ly=w1598-h933-s-no?authuser=0");
+		background-size: cover;
+	}
+
+	/* CSS ID selector */
+	#form-section {
+		border: 1.5px solid Black;
+		padding: 20px;
+		margin: 100px 300px;
+	}
+	</style>
+</head>
+
+<body style="background-color:White">
+</body>
+<body>
+
+	<!-- Paragraphs and line breaks -->
+	<div class="container">
+		<p><h1 align="left" style="color:Black;">Hi...!</h1></p> 
+		<p style="color:Black;">This link is password protected</p>
+		<br>
+
+	<!-- HTML form -->
+	<div id="form-section">
+	<form>
+		<p style="color:Black;">Type your Password</p>
+	</form>
+
+	<div class="row-fluid">
+		<label>Password: </label>
+		<input type="password" name="password" maxlength="8"      class="span7" id="password" placeholder="eg. dd/mm/yy" required/>
+		<button class="btn btn-info btn-large span5" id="Yogi_btn" input type="submit" value="Submit" onclick="if 	(document.getElementById('password').value == '26/11/20') location.href = 'https://drive.google.com/drive/folders/1taloYCcSjdqkK07_MzM-n7whaWHoufrg'; else alert('Please check your Password and try again');">Submit</button>
+	</div>   	
+	</div>
+
+</body>
+
+</html>
